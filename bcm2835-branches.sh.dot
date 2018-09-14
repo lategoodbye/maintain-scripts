@@ -1,0 +1,7 @@
+merge_base=v4.19-rc1
+
+arm_soc="${arm_soc} dt-next" # on v4.19-rc1
+arm_soc="${arm_soc} dt-64-next" # on v4.19-rc1
+arm_soc="${arm_soc} defconfig-next" # on v4.19-rc1
+
+branches="${arm_soc} ${branches}"
